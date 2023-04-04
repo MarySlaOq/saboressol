@@ -7,5 +7,5 @@ if (!isset($_SESSION['lingua_site'])) {
 $URL_WEBSITE = "localhost/saboressol/";
 $DIR_WEBSITE = "C:\wamp64\www\saboressol";
 
-
-?>
+include_once './include/db.class.php';
+include_once './include/helpers.inc.php';
