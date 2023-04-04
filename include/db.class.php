@@ -19,7 +19,7 @@
 
 class DB {
   // initial connection
-  public static $dbName = 'saboressol';
+  public static $dbName = 'saboresol';
   public static $user = 'root';
   public static $password = '';
   public static $host = 'localhost';
@@ -1079,5 +1079,3 @@ class MeekroDBEval {
     $this->text = $text;
   }
 }
-
-?>
