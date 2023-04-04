@@ -1,22 +1,11 @@
+<ul class="navbar-nav mx-auto">
+    <?php
 
-    <ul class="navbar-nav mx-auto">
-        <li class="nav-item">
-            <a class="nav-link active" href="index.php">Home</a>
-        </li>
+    navLink('index.php', 'Home');
+    navLink('about.php', 'Story');
+    navLink('menu.php', 'Menu');
+    navLink('news.php', 'Our Updates');
+    navLink('contact.php', 'Contact');
+    ?>
 
-        <li class="nav-item">
-            <a class="nav-link" href="about.php">Story</a>
-        </li>
-
-        <li class="nav-item">
-            <a class="nav-link" href="menu.php">Menu</a>
-        </li>
-
-        <li class="nav-item">
-            <a class="nav-link" href="news.php">Our Updates</a>
-        </li>
-
-        <li class="nav-item">
-            <a class="nav-link" href="contact.php">Contact</a>
-        </li>
-    </ul>
+</ul>
