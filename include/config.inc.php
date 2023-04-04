@@ -19,7 +19,7 @@ $database = new Medoo([
     'host' => '127.0.0.1',
     'database' => 'saboresol',
     'username' => 'root',
-    'password' => 'naovaisvais1010',
+    'password' => '',
 
 
     'port' => 3306,
