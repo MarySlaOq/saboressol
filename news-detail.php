@@ -46,7 +46,7 @@ https://www.tooplate.com/view/2129-crispy-kitchen
                 </a>
 
                 <div class="d-lg-none">
-                    <button type="button" class="custom-btn btn btn-danger" data-bs-toggle="modal" data-bs-target="#BookingModal">Reservation</button>
+                    <button type="button" class="custom-btn btn btn-danger" data-bs-toggle="modal" data-bs-target="#BookingModal">Reservas</button>
                 </div>
 
                 <div class="collapse navbar-collapse" id="navbarNav">
@@ -58,7 +58,7 @@ https://www.tooplate.com/view/2129-crispy-kitchen
                 </div>
 
                 <div class="d-none d-lg-block">
-                    <button type="button" class="custom-btn btn btn-danger" data-bs-toggle="modal" data-bs-target="#BookingModal">Reservation</button>
+                    <button type="button" class="custom-btn btn btn-danger" data-bs-toggle="modal" data-bs-target="#BookingModal">Reservas</button>
                 </div>
 
             </div>

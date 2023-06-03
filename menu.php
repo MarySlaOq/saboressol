@@ -72,9 +72,9 @@ https://www.tooplate.com/view/2129-crispy-kitchen
                     <div class="row">
 
                         <div class="col-lg-10 col-12 mx-auto">
-                            <h1 class="text-white">Our Menus</h1>
+                            <h1 class="text-white">Produtos</h1>
 
-                            <strong class="text-white">Perfect for all Breakfast, Lunch and Dinner</strong>
+                            <strong class="text-white">Os nossos menus e produtos à sua desposição</strong>
                         </div>
 
                     </div>
@@ -88,7 +88,7 @@ https://www.tooplate.com/view/2129-crispy-kitchen
                     <div class="row">
 
                         <div class="col-12">
-                            <h2 class="mb-lg-5 mb-4">Breakfast Menu</h2>
+                            <h2 class="mb-lg-5 mb-4">Os Nossos Produtos</h2>
                         </div>
 
                         <div class="col-lg-4 col-md-6 col-12">
@@ -122,7 +122,7 @@ https://www.tooplate.com/view/2129-crispy-kitchen
                                 <img src="images/breakfast/lucas-swennen-1W_MyJSRLuQ-unsplash.jpg" class="img-fluid menu-image" alt="">
 
                                 <div class="menu-info d-flex flex-wrap align-items-center">
-                                    <h4 class="mb-0">Baked Creamy</h4>
+                                    <h4 class="mb-0">Baked Crem</h4>
 
                                     <span class="price-tag bg-white shadow-lg ms-4"><small>$</small>16.50</span>
 
@@ -152,7 +152,6 @@ https://www.tooplate.com/view/2129-crispy-kitchen
 
                                     <span class="price-tag bg-white shadow-lg ms-4"><small>$</small>24.50</span>
 
-                                    <del class="ms-4"><small>$</small>36.50</del>
 
                                     <div class="d-flex flex-wrap align-items-center w-100 mt-2">
                                         <h6 class="reviews-text mb-0 me-3">3/5</h6>
@@ -180,7 +179,7 @@ https://www.tooplate.com/view/2129-crispy-kitchen
                     <div class="row">
 
                         <div class="col-12">
-                            <h2 class="mb-lg-5 mb-4">Dinner Menu</h2>
+                            <h2 class="mb-lg-5 mb-4">Menus</h2>
                         </div>
 
                         <div class="col-lg-4 col-md-6 col-12">
@@ -214,7 +213,7 @@ https://www.tooplate.com/view/2129-crispy-kitchen
                                 <img src="images/dinner/keriliwi-c3mFafsFz2w-unsplash.jpg" class="img-fluid menu-image" alt="">
 
                                 <div class="menu-info d-flex flex-wrap align-items-center">
-                                    <h4 class="mb-0">Premium Steak</h4>
+                                    <h4 class="mb-0">Premium</h4>
 
                                     <span class="price-tag bg-white shadow-lg ms-4"><small>$</small>74.25</span>
 

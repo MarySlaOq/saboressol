@@ -11,7 +11,7 @@ include 'include/config.inc.php';
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>Crispy Kitchen - Bootstrap 5 HTML Template</title>
+        <title>Sabores Do Sol</title>
 
         <!-- CSS FILES -->    
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,7 +27,7 @@ include 'include/config.inc.php';
         
 <!--
 
-Tooplate 2129 Crispy Kitchen
+Tooplate 2129 Sabores Do Sol
 
 https://www.tooplate.com/view/2129-crispy-kitchen
 
@@ -43,7 +43,7 @@ https://www.tooplate.com/view/2129-crispy-kitchen
                 </button>
                 
                 <a class="navbar-brand" href="index.php">
-                    Crispy Kitchen
+                    Sabores Do Sol
                 </a>
 
                 <div class="d-lg-none">
@@ -207,7 +207,7 @@ https://www.tooplate.com/view/2129-crispy-kitchen
                                 </div>
 
                                 <div class="menu-info d-flex flex-wrap align-items-center">
-                                    <h4 class="mb-0">Morning Fresh</h4>
+                                    <h4 class="mb-0">Morning</h4>
 
                                     <span class="price-tag bg-white shadow-lg ms-4"><small>$</small>12.50</span>
 
@@ -267,11 +267,9 @@ https://www.tooplate.com/view/2129-crispy-kitchen
                                 </div>
 
                                 <div class="menu-info d-flex flex-wrap align-items-center">
-                                    <h4 class="mb-0">Premium Steak</h4>
+                                    <h4 class="mb-0">Premium</h4>
 
                                     <span class="price-tag bg-white shadow-lg ms-4"><small>$</small>45</span>
-
-                                    <del class="ms-4"><small>$</small>150</del>
 
                                     <div class="d-flex flex-wrap align-items-center w-100 mt-2">
                                         <h6 class="reviews-text mb-0 me-3">3/5</h6>
@@ -387,102 +385,6 @@ https://www.tooplate.com/view/2129-crispy-kitchen
             <section>
 
             <section class="BgImage"></section>
-
-            <section class="news section-padding">
-                <div class="container">
-                    <div class="row">
-
-                        <h2 class="text-center mb-lg-5 mb-4">News &amp; Events</h2>
-
-                        <div class="col-lg-6 col-md-6 col-12">
-                            <div class="news-thumb mb-4">
-                                <a href="news-detail.php">
-                                    <img src="images/news/pablo-merchan-montes-Orz90t6o0e4-unsplash.jpg" class="img-fluid news-image" alt="">
-                                </a>
-                                
-                                <div class="news-text-info news-text-info-large">
-                                    <span class="category-tag bg-danger">Featured</span>
-
-                                    <h5 class="news-title mt-2">
-                                        <a href="news-detail.php" class="news-title-link">Healthy Lifestyle and happy living tips</a>
-                                    </h5>
-                                </div>
-                            </div> 
-                        </div>
-
-                        <div class="col-lg-6 col-md-6 col-12">
-                            <div class="news-thumb mb-4">
-                                <a href="news-detail.php">
-                                    <img src="images/news/stefan-johnson-xIFbDeGcy44-unsplash.jpg" class="img-fluid news-image" alt="">
-                                </a>
-                                
-                                <div class="news-text-info news-text-info-large">
-                                    <span class="category-tag bg-danger">Featured</span>
-
-                                    <h5 class="news-title mt-2">
-                                        <a href="news-detail.php" class="news-title-link">How to make a healthy meal</a>
-                                    </h5>
-                                </div>
-                            </div> 
-                        </div>
-
-                        <div class="col-lg-4 col-md-4 col-12">
-                            <div class="news-thumb mb-lg-0 mb-lg-4 mb-0">
-                                <a href="news-detail.php">
-                                    <img src="images/news/gilles-lambert-S_LhjpfIdm4-unsplash.jpg" class="img-fluid news-image" alt="">
-                                </a>
-                                
-                                <div class="news-text-info">
-                                    <span class="category-tag me-3 bg-info">Promotions</span>
-
-                                    <strong>8 April 2022</strong>
-
-                                    <h5 class="news-title mt-2">
-                                        <a href="news-detail.php" class="news-title-link">Is Coconut good for you?</a>
-                                    </h5>
-                                </div>
-                            </div> 
-                        </div>
-
-                        <div class="col-lg-4 col-md-4 col-12">
-                            <div class="news-thumb mb-lg-0 mb-lg-4 mb-2">
-                                <a href="news-detail.php">
-                                    <img src="images/news/caroline-attwood-bpPTlXWTOvg-unsplash.jpg" class="img-fluid news-image" alt="">
-                                </a>
-                                
-                                <div class="news-text-info">
-                                    <span class="category-tag">News</span>
-
-                                    <h5 class="news-title mt-2">
-                                        <a href="news-detail.php" class="news-title-link">Salmon Steak Noodle</a>
-                                    </h5>
-                                </div>
-                            </div> 
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 col-12">
-                            <div class="news-thumb mb-4">
-                                <a href="news-detail.php">
-                                    <img src="images/news/louis-hansel-GiIiRV0FjwU-unsplash.jpg" class="img-fluid news-image" alt="">
-                                </a>
-                                
-                                <div class="news-text-info">
-                                    <span class="category-tag me-3 bg-info">Meeting</span>
-
-                                    <strong>30 April 2022</strong>
-
-                                    <h5 class="news-title mt-2">
-                                        <a href="news-detail.php" class="news-title-link">Making a healthy salad</a>
-                                    </h5>
-                                </div>
-                            </div> 
-                        </div>
-
-                    </div>
-                </div>
-            </section>
-
-        </main>
 
         <footer class="site-footer section-padding">
             

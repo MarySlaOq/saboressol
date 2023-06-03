@@ -2,10 +2,10 @@
     <?php
 
     navLink('index.php', 'Home');
-    navLink('about.php', 'Story');
-    navLink('menu.php', 'Menu');
-    navLink('news.php', 'Our Updates');
-    navLink('contact.php', 'Contact');
+    navLink('about.php', 'Sobre Nós');
+    navLink('menu.php', 'Menus');
+    navLink('news.php', 'As nossas notícias');
+    navLink('contact.php', 'Contactos');
     ?>
 
 </ul>
