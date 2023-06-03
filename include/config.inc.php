@@ -1,6 +1,6 @@
 <?php
 
-use Medoo\Medoo;
+//use Medoo\Medoo;
 
 @session_start();
 if (!isset($_SESSION['lingua_site'])) {
@@ -10,6 +10,7 @@ if (!isset($_SESSION['lingua_site'])) {
 $URL_WEBSITE = "localhost/saboressol/";
 $DIR_WEBSITE = "C:\wamp64\www\saboressol";
 
+/*
 include_once './include/medoo.php';
 include_once './include/helpers.inc.php';
 
@@ -35,3 +36,4 @@ $database = new Medoo([
     'error' => PDO::ERRMODE_EXCEPTION,
 
 ]);
+*/
