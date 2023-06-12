@@ -6,20 +6,20 @@
         </div>
 
         <div class="col-lg-4 col-md-7 col-xs-12 tooplate-mt30">
-            <h6 class="text-white mb-lg-4 mb-3">Location</h6>
-            <p>121 Einstein Loop N, Bronx, NY 10475, United States</p>
-            <a href="https://goo.gl/maps/wZVGLA7q64uC1s886" class="custom-btn btn btn-dark mt-2">Directions</a>
+            <h6 class="text-white mb-lg-4 mb-3">Localização</h6>
+            <p>Rua Qualquer, </p>
+            <a href="https://goo.gl/maps/wZVGLA7q64uC1s886" class="custom-btn btn btn-dark mt-2">Direções</a>
         </div>
 
         <div class="col-lg-4 col-md-5 col-xs-12 tooplate-mt30">
             <h6 class="text-white mb-lg-4 mb-3">Opening Hours</h6>
-            <p class="mb-2">Monday - Friday</p>
-            <p>10:00 AM - 08:00 PM</p>
+            <p class="mb-2">Segunda - Sexta</p>
+            <p>09:00 - 19:00 PM</p>
             <p>Tel: <a href="tel: 010-02-0340" class="tel-link">010-02-0340</a></p>
         </div>
 
         <div class="col-lg-4 col-md-6 col-xs-12 tooplate-mt30">
-            <h6 class="text-white mb-lg-4 mb-3">Social</h6>
+            <h6 class="text-white mb-lg-4 mb-3">Redes Sociais</h6>
 
             <ul class="social-icon">
                 <li><a href="#" class="social-icon-link bi-facebook"></a></li>

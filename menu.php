@@ -22,8 +22,17 @@ include 'include/config.inc.php';
         <link href="css/bootstrap.min.css" rel="stylesheet">
 
         <link href="css/bootstrap-icons.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/custom.css">
 
         <link href="css/tooplate-crispy-kitchen.css" rel="stylesheet">
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/custom.js"></script>
+        <script src="js/jquery.cycle.all.js"></script>
+
+        <script src="js/functions.js"></script>
+        
         
 <!--
 
@@ -34,7 +43,7 @@ https://www.tooplate.com/view/2129-crispy-kitchen
 -->
     </head>
     
-    <body>
+    <body >
         
         <nav class="navbar navbar-expand-lg bg-white shadow-lg">
             <div class="container">
@@ -176,12 +185,14 @@ https://www.tooplate.com/view/2129-crispy-kitchen
 
             <section class="menu section-padding">
                 <div class="container">
+
                     <div class="row">
 
                         <div class="col-12">
                             <h2 class="mb-lg-5 mb-4">Menus</h2>
                         </div>
 
+                        
                         <?php
                         
                         $menus = getJsonData("menus.json");
@@ -195,12 +206,12 @@ https://www.tooplate.com/view/2129-crispy-kitchen
 
                             <div class="col-lg-4 col-md-6 col-12">
                                 <div class="menu-thumb">
-                                    <img class="gifs" src="<?php echo $menu[$index]->image ?>" class="img-fluid menu-image" alt="">
+                                    <img class="gifs" src="<?php echo $menu[$index]->image[0] ?>" class="img-fluid menu-image" alt="">
 
                                     <div class="menu-info d-flex flex-wrap align-items-center">
                                         <h4 class="mb-0"><?php echo $menu[$index]->name ?></h4>
 
-                                        <span class="price-tag bg-white shadow-lg ms-4"><small>€</small><?php echo $menu[0]->price ?></span>
+                                        <span class="price-tag bg-white shadow-lg ms-4"><?php echo $menu[0]->price ?><small>€</small></span>
 
                                         <div class="d-flex flex-wrap align-items-center w-100 mt-2">
                                             <h6 class="reviews-text mb-0 me-3"><?php echo $menu[$index]->review ?>/5</h6>
@@ -217,6 +228,11 @@ https://www.tooplate.com/view/2129-crispy-kitchen
 
                                             <p class="reviews-text mb-0 ms-4"><?php echo $menu[$index]->review_count ?> Reviews</p>
                                         </div>
+                                        <?php 
+
+                                            //More info pop up
+                                            echo "<button class='seemore' onclick=\"showMenuInfo('".$menu[$index]->name."')\">Ver mais</button>";
+                                        ?>
                                     </div>
                                 </div>
                             </div>
@@ -231,6 +247,32 @@ https://www.tooplate.com/view/2129-crispy-kitchen
             </section>
 
         </main>
+
+        <div class="pop-up" id="popup">
+            <button class="close-button" onclick="document.getElementById('popup').style.display = 'none'">&#10006;</button>
+            <h3 id="pop-title"></h3>
+            <div class="d-flex flex-wrap align-items-center w-100 mt-2">
+                <div class="reviews-stars" id="pop-stars">
+                </div>
+                <p id="pop-reviews" class="reviews-text mb-0 ms-4"></p>
+                <span id="pop-price" class="ms-4"></span>
+            </div>
+            
+            <div class="flex-parent-element">
+                <div class='flex-child-element'>
+
+                    <h4>Sobre o menu</h4>
+                    <p id="pop-desc"></p>
+
+                </div>
+                <div id="container" class='flex-child-element full'>
+
+                    <!-- <img src="" alt="" id="pop-img"> -->
+
+                </div>
+            </div>
+
+        </div>
 
         <footer class="site-footer section-padding">
             
@@ -317,9 +359,6 @@ https://www.tooplate.com/view/2129-crispy-kitchen
         </div>
 
         <!-- JAVASCRIPT FILES -->
-        <script src="js/jquery.min.js"></script>
-        <script src="js/bootstrap.bundle.min.js"></script>
-        <script src="js/custom.js"></script>
 
     </body>
 </html>
