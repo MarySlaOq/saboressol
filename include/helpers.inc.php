@@ -12,3 +12,9 @@ function navLink($url, $name)
 </li>';
     }
 }
+
+function getJsonData($file){
+
+    $json = json_decode(file_get_contents("data/".$file));
+    return $json;
+}

@@ -146,11 +146,6 @@ strong {
   font-weight: var(--font-weight-bold);
 }
 
-.big {
-
-  width: 100% !important;
-}
-
 /*---------------------------------------
   CUSTOM BUTTON              
 -----------------------------------------*/
@@ -469,6 +464,12 @@ strong {
 .menu-thumb {
   position: relative;
   overflow: hidden;
+}
+
+.gifs {
+  width: 100%;
+  height: 100%;
+  display: block;
 }
 
 .menu-info {
