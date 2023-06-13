@@ -7,15 +7,15 @@
 
         <div class="col-lg-4 col-md-7 col-xs-12 tooplate-mt30">
             <h6 class="text-white mb-lg-4 mb-3">Localização</h6>
-            <p>Rua Qualquer, </p>
+            <p>A tua mãe</p>
             <a href="https://goo.gl/maps/wZVGLA7q64uC1s886" class="custom-btn btn btn-dark mt-2">Direções</a>
         </div>
 
         <div class="col-lg-4 col-md-5 col-xs-12 tooplate-mt30">
-            <h6 class="text-white mb-lg-4 mb-3">Opening Hours</h6>
+            <h6 class="text-white mb-lg-4 mb-3">Horas de Abertura</h6>
             <p class="mb-2">Segunda - Sexta</p>
             <p>09:00 - 19:00 PM</p>
-            <p>Tel: <a href="tel: 010-02-0340" class="tel-link">010-02-0340</a></p>
+            <p>Telémovel: <a href="tel: 010-02-0340" class="tel-link">932-339.534</a></p>
         </div>
 
         <div class="col-lg-4 col-md-6 col-xs-12 tooplate-mt30">
