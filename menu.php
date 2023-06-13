@@ -182,86 +182,49 @@ https://www.tooplate.com/view/2129-crispy-kitchen
                             <h2 class="mb-lg-5 mb-4">Menus</h2>
                         </div>
 
-                        <div class="col-lg-4 col-md-6 col-12">
-                            <div class="menu-thumb">
-                                <img src="https://cdn.discordapp.com/attachments/1097233414287012001/1104016662165987388/bs.gif" class="img-fluid menu-image" alt="">
-
-                                <div class="menu-info d-flex flex-wrap align-items-center">
-                                    <h4 class="mb-0">Seafood Set</h4>
-
-                                    <span class="price-tag bg-white shadow-lg ms-4"><small>$</small>65.50</span>
-
-                                    <div class="d-flex flex-wrap align-items-center w-100 mt-2">
-                                        <h6 class="reviews-text mb-0 me-3">4.4/5</h6>
-
-                                        <div class="reviews-stars">
-                                            <i class="bi-star-fill reviews-icon"></i>
-                                            <i class="bi-star-fill reviews-icon"></i>
-                                            <i class="bi-star-fill reviews-icon"></i>
-                                            <i class="bi-star-fill reviews-icon"></i>
-                                            <i class="bi-star reviews-icon"></i>
-                                        </div>
-
-                                        <p class="reviews-text mb-0 ms-4">102 Reviews</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 col-12">
-                            <div class="menu-thumb">
-                                <img src="https://cdn.discordapp.com/attachments/1097233414287012001/1104019581892296754/5a503ee2-0b23-4838-9de1-2b3c0ca5d536.gif" class="img-fluid menu-image" alt="">
-
-                                <div class="menu-info d-flex flex-wrap align-items-center">
-                                    <h4 class="mb-0">Salmon Set</h4>
-
-                                    <span class="price-tag bg-white shadow-lg ms-4"><small>$</small>60</span>
-
-                                    <div class="d-flex flex-wrap align-items-center w-100 mt-2">
-                                        <h6 class="reviews-text mb-0 me-3">3/5</h6>
-
-                                        <div class="reviews-stars">
-                                            <i class="bi-star-fill reviews-icon"></i>
-                                            <i class="bi-star-fill reviews-icon"></i>
-                                            <i class="bi-star-fill reviews-icon"></i>
-                                            <i class="bi-star reviews-icon"></i>
-                                            <i class="bi-star reviews-icon"></i>
-                                        </div>
-
-                                        <p class="reviews-text mb-0 ms-4">76 Reviews</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <?php
                         
-                        <div class="col-lg-4 col-md-6 col-12">
-                            <div class="menu-thumb">
-                                <img src="https://media.discordapp.net/attachments/1097233414287012001/1104059091137085470/ultra_taiko_pet.gif" class="big img-fluid menu-image" alt="">
+                        $menus = getJsonData("menus.json");
+                        $menu = $menus->menus;
 
-                                <div class="menu-info d-flex flex-wrap align-items-center">
-                                    <h4 class="mb-0">Premium</h4>
+                        $index = 0;
 
-                                    <span class="price-tag bg-white shadow-lg ms-4"><small>$</small>100000000000</span>
+                        for($j = 0; $j < count($menu); $j++){
 
-                                    <div class="d-flex flex-wrap align-items-center w-100 mt-2">
-                                        <h6 class="reviews-text mb-0 me-3">∞</h6>
+                            ?>
 
-                                        <div class="reviews-stars">
-                                            <i class="bi-star-fill reviews-icon"></i>
-                                            <i class="bi-star-fill reviews-icon"></i>
-                                            <i class="bi-star-fill reviews-icon"></i>
-                                            <i class="bi-star-fill reviews-icon"></i>
-                                            <i class="bi-star-fill reviews-icon"></i>
-                                            <i class="bi-star-fill reviews-icon"></i>
-                                            <i class="bi-star-fill reviews-icon"></i>
-                                            <i class="bi-star-fill reviews-icon"></i>
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <div class="menu-thumb">
+                                    <img class="gifs" src="<?php echo $menu[$index]->image ?>" class="img-fluid menu-image" alt="">
+
+                                    <div class="menu-info d-flex flex-wrap align-items-center">
+                                        <h4 class="mb-0"><?php echo $menu[$index]->name ?></h4>
+
+                                        <span class="price-tag bg-white shadow-lg ms-4"><small>€</small><?php echo $menu[0]->price ?></span>
+
+                                        <div class="d-flex flex-wrap align-items-center w-100 mt-2">
+                                            <h6 class="reviews-text mb-0 me-3"><?php echo $menu[$index]->review ?>/5</h6>
+
+                                            <div class="reviews-stars">
+                                                <?php
+                                                
+                                                for($i = 0; $i < $menu[$index]->review; $i++){
+                                                    echo '<i class="bi-star-fill reviews-icon"></i>';
+                                                }
+                                                
+                                                ?>
+                                            </div>
+
+                                            <p class="reviews-text mb-0 ms-4"><?php echo $menu[$index]->review_count ?> Reviews</p>
                                         </div>
-
-                                        <p class="reviews-text mb-0 ms-4">a minha review</p>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                            <?php
+
+                            $index++;
+                        }
+                        ?>
 
                     </div>
                 </div>

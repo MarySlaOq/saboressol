@@ -1,0 +1,25 @@
+{
+    "menus": [
+        {
+            "name": "Barbosa Silva Set",
+            "price": "1000000000",
+            "review": 5,
+            "image": "https://cdn.discordapp.com/attachments/1097233414287012001/1104016662165987388/bs.gif",
+            "review_count": 1
+        },
+        {
+            "name": "Bernas Set",
+            "price": "1000000000",
+            "review": 5,
+            "image": "https://cdn.discordapp.com/attachments/1097233414287012001/1104019581892296754/5a503ee2-0b23-4838-9de1-2b3c0ca5d536.gif",
+            "review_count": 1
+        },
+        {
+            "name": "Taiko Set",
+            "price": "1000000000",
+            "review": 5,
+            "image": "https://media.discordapp.net/attachments/1097233414287012001/1104059091137085470/ultra_taiko_pet.gif",
+            "review_count": 1
+        }
+    ]
+}
