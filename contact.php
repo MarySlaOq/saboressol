@@ -35,34 +35,9 @@ https://www.tooplate.com/view/2129-crispy-kitchen
     
     <body>
         
-        <nav class="navbar navbar-expand-lg bg-white shadow-lg">
-            <div class="container">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                
-                <a class="navbar-brand" href="index.php">
-                    Crispy Kitchen
-                </a>
-
-                <div class="d-lg-none">
-                    <button type="button" class="custom-btn btn btn-danger" data-bs-toggle="modal" data-bs-target="#BookingModal">Reservation</button>
-                </div>
-
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav mx-auto">
-                        <?php
-                        include 'include/menu.inc.php';
-                        ?>
-                    </ul>
-                </div>
-
-                <div class="d-none d-lg-block">
-                    <button type="button" class="custom-btn btn btn-danger" data-bs-toggle="modal" data-bs-target="#BookingModal">Reservation</button>
-                </div>
-
-            </div>
-        </nav>
+        <?php
+            include './include/menu.inc.php';
+        ?>
 
         <main>
 
@@ -71,9 +46,9 @@ https://www.tooplate.com/view/2129-crispy-kitchen
                     <div class="row">
 
                         <div class="col-lg-10 col-12 mx-auto">
-                            <h1 class="text-white">Say Hi</h1>
+                            <h1 class="text-white">Contactos</h1>
 
-                            <strong class="text-white">We are happy to get in touch with you</strong>
+                            <strong class="text-white">Contacte-nos e saiba mais</strong>
                         </div>
 
                     </div>
@@ -87,19 +62,19 @@ https://www.tooplate.com/view/2129-crispy-kitchen
                     <div class="row">
 
                         <div class="col-12">
-                            <h2 class="mb-4">Leave a message</h2>
+                            <h2 class="mb-4">Envie uma mensagem</h2>
                         </div>
 
                         <div class="col-lg-6 col-12">
                             <form class="custom-form contact-form row" action="#" method="post" role="form">
                                 <div class="col-lg-6 col-6">
-                                    <label for="contact-name" class="form-label">Full Name</label>
+                                    <label for="contact-name" class="form-label">Nome Completo</label>
 
                                     <input type="text" name="contact-name" id="contact-name" class="form-control" placeholder="Your Name" required>
                                 </div>
 
                                 <div class="col-lg-6 col-6">
-                                    <label for="contact-phone" class="form-label">Phone Number</label>
+                                    <label for="contact-phone" class="form-label">Número de Telefone</label>
 
                                     <input type="telephone" name="contact-phone" id="contact-phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" class="form-control" placeholder="123-456-7890">
                                 </div>
@@ -109,13 +84,13 @@ https://www.tooplate.com/view/2129-crispy-kitchen
 
                                     <input type="email" name="contact-email" id="contact-email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Your Email" required="">
 
-                                    <label for="contact-message" class="form-label">Message</label>
+                                    <label for="contact-message" class="form-label">Mensagem</label>
 
                                     <textarea class="form-control" rows="5" id="contact-message" name="contact-message" placeholder="Your Message"></textarea>
                                 </div>
 
                                 <div class="col-lg-5 col-12 ms-auto">
-                                    <button type="submit" class="form-control">Send</button>
+                                    <button type="submit" class="form-control">Enviar</button>
                                 </div>
                             </form>
                         </div>
@@ -140,10 +115,10 @@ https://www.tooplate.com/view/2129-crispy-kitchen
                         </div>
 
                         <div class="col-12">
-                            <h4 class="mt-5 mb-4">121 Einstein Loop N, Bronx, NY 10475, United States</h4>
+                            <h4 class="mt-5 mb-4">R. Pádua Correia 166, 4430-999 Vila Nova de Gaia</h4>
 
                             <div class="google-map pt-3">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14920.891757756479!2d-73.83496372506556!3d40.8623107607295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c28cbc17f4a0c3%3A0x9ae0f1e804a817d!2s121%20Einstein%20Loop%20N%2C%20Bronx%2C%20NY%2010475%2C%20USA!5e0!3m2!1sen!2sth!4v1650470337727!5m2!1sen!2sth" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                                <iframe src="https://www.google.co.th/maps/place/Gaia+College/@41.1257722,-8.6095826,511m/data=!3m2!1e3!4b1!4m6!3m5!1s0xd2464d119daed09:0x96d9bb511fe3c719!8m2!3d41.1257722!4d-8.6095826!16s%2Fg%2F1td7k05y?hl=en&entry=ttu" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                             </div>
                         </div>
 

@@ -35,34 +35,9 @@ https://www.tooplate.com/view/2129-crispy-kitchen
     
     <body>
         
-        <nav class="navbar navbar-expand-lg bg-white shadow-lg">
-            <div class="container">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                
-                <a class="navbar-brand" href="index.php">
-                    Crispy Kitchen
-                </a>
-
-                <div class="d-lg-none">
-                    <button type="button" class="custom-btn btn btn-danger" data-bs-toggle="modal" data-bs-target="#BookingModal">Reservation</button>
-                </div>
-
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav mx-auto">
-                        <?php
-                        include 'include/menu.inc.php';
-                        ?>
-                    </ul>
-                </div>
-
-                <div class="d-none d-lg-block">
-                    <button type="button" class="custom-btn btn btn-danger" data-bs-toggle="modal" data-bs-target="#BookingModal">Reservation</button>
-                </div>
-
-            </div>
-        </nav>
+    <?php
+        include './include/menu.inc.php';
+    ?>
 
         <main>
 
@@ -71,9 +46,9 @@ https://www.tooplate.com/view/2129-crispy-kitchen
                     <div class="row">
 
                         <div class="col-lg-10 col-12 mx-auto">
-                            <h1 class="text-white">News &amp; Events</h1>
+                            <h1 class="text-white">Notícias e Eventos</h1>
 
-                            <strong class="text-white">our latest updates, news, events and special promotions</strong>
+                            <strong class="text-white">As nossas notícias e futuros eventos</strong>
                         </div>
 
                     </div>
@@ -86,7 +61,7 @@ https://www.tooplate.com/view/2129-crispy-kitchen
                 <div class="container">
                     <div class="row">
 
-                        <h2 class="mb-lg-5 mb-4">Latest Updates</h2>
+                        <h2 class="mb-lg-5 mb-4">Eventos</h2>
                         
                         <div class="col-lg-6 col-md-6 col-12">
                             <div class="news-thumb mb-4">
@@ -129,7 +104,7 @@ https://www.tooplate.com/view/2129-crispy-kitchen
                     <div class="row">
 
                         <div class="col-12">
-                            <h2 class="mb-lg-5 mb-4">News &amp; Events</h2>
+                            <h2 class="mb-lg-5 mb-4">Notícias</h2>
                         </div>
 
                         <div class="col-lg-4 col-md-6 col-12">

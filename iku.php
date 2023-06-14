@@ -3,34 +3,9 @@
 include 'include/config.inc.php';
 ?>
 
-<nav class="navbar navbar-expand-lg bg-white shadow-lg">
-            <div class="container">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                
-                <a class="navbar-brand" href="index.php">
-                    Sabores Do Sol
-                </a>
-
-                <div class="d-lg-none">
-                    <button type="button" class="custom-btn btn btn-danger" data-bs-toggle="modal" data-bs-target="#BookingModal">Reservation</button>
-                </div>
-
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav mx-auto">
-                        <?php
-                        include './include/menu.inc.php';
-                        ?>
-                    </ul>
-                </div>
-
-                <div class="d-none d-lg-block">
-                    <button type="button" class="custom-btn btn btn-danger" data-bs-toggle="modal" data-bs-target="#BookingModal">Reservation</button>
-                </div>
-
-            </div>
-        </nav>
+<?php
+include './include/menu.inc.php';
+?>
 
         
 <p> AQUI Q GAMER </p>

@@ -878,3 +878,8 @@ strong {
     height: 50px;
   }
 }
+
+.bio p {
+
+  font-size: large !important;
+}

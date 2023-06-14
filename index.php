@@ -36,34 +36,9 @@ https://www.tooplate.com/view/2129-crispy-kitchen
     
     <body>
         
-        <nav class="navbar navbar-expand-lg bg-white shadow-lg">
-            <div class="container">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                
-                <a class="navbar-brand" href="index.php">
-                    Sabores Do Sol
-                </a>
-
-                <div class="d-lg-none">
-                    <button type="button" class="custom-btn btn btn-danger" data-bs-toggle="modal" data-bs-target="#BookingModal">Reservas</button>
-                </div>
-
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav mx-auto">
-                        <?php
-                        include './include/menu.inc.php';
-                        ?>
-                    </ul>
-                </div>
-
-                <div class="d-none d-lg-block">
-                    <button type="button" class="custom-btn btn btn-danger" data-bs-toggle="modal" data-bs-target="#BookingModal">Reservas</button>
-                </div>
-
-            </div>
-        </nav>
+            <?php
+                include './include/menu.inc.php';
+            ?>
 
         <main>
 
@@ -78,14 +53,12 @@ https://www.tooplate.com/view/2129-crispy-kitchen
 
                                 <div class="c-reviews my-3 d-flex flex-wrap align-items-center">
                                     <div class="d-flex flex-wrap align-items-center">
-                                        <h4 class="text-white mb-0 me-3">Uma pastelaria</h4>
-                                        
-                                        
+                                        <h4 class="text-white mb-0 me-3">Uma pastelaria </br> amiga da natureza </br> com alimentos da melhor qualidade</h4>
                                         
                                     </div>
                                 </div>
-                                <h4 class="text-white mb-0 me-3">amiga da natureza</h4>
-                                <p class="text-white w-100">From <strong>1,206+</strong> Customer Reviews</p>
+                                <h4 class="text-white mb-0 me-3"></h4>
+                                <p class="text-white w-100">Produtos fornecidos pelo Centro de Ciência Viva da Floresta de Proença-a-Nova</p>
                             </div>
                         </div>
 
@@ -94,67 +67,48 @@ https://www.tooplate.com/view/2129-crispy-kitchen
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
                                         <div class="carousel-image-wrap">
-                                            <img src="images/slide/jay-wennington-N_Y88TWmGwA-unsplash.jpg" class="img-fluid carousel-image" alt="">
+                                            <img onclick="window.open('about.php', '_self')" src="images/slide/jay-wennington-N_Y88TWmGwA-unsplash.jpg" class="img-fluid carousel-image" alt="">
                                         </div>
                                         
                                         <div class="carousel-caption">
-                                            <span class="text-white">
-                                                <i class="bi-geo-alt me-2"></i>
-                                                Manhattan, New York
-                                            </span>
-
-                                            <h4 class="hero-text">Fine Dining Restaurant</h4>
+                                            
+                                            <h4 class="hero-text">Sobre a Sabores do Sol</h4>
                                         </div>
                                     </div>
 
                                     <div class="carousel-item">
                                         <div class="carousel-image-wrap">
-                                            <img src="images/slide/jason-leung-O67LZfeyYBk-unsplash.jpg" class="img-fluid carousel-image" alt="">
+                                            <img onclick="window.open('menu.php', '_self')" src="images/slide/jason-leung-O67LZfeyYBk-unsplash.jpg" class="img-fluid carousel-image" alt="">
                                         </div>
                                         
                                         <div class="carousel-caption">
                                             <div class="d-flex align-items-center">
-                                                <h4 class="hero-text">Steak</h4>
-
+                                                <h4 class="hero-text">Os nossos Menus especiais</h4>
                                                 <span class="price-tag ms-4"><small>$</small>26.50</span>
+
                                             </div>
 
                                             <div class="d-flex flex-wrap align-items-center">
-                                                <h5 class="reviews-text mb-0 me-3">3.8/5</h5>
+                                                
 
-                                                <div class="reviews-stars">
-                                                    <i class="bi-star-fill reviews-icon"></i>
-                                                    <i class="bi-star-fill reviews-icon"></i>
-                                                    <i class="bi-star-fill reviews-icon"></i>
-                                                    <i class="bi-star reviews-icon"></i>
-                                                    <i class="bi-star reviews-icon"></i>
-                                                </div>
                                             </div>
                                         </div>
                                     </div>
 
                                     <div class="carousel-item">
                                         <div class="carousel-image-wrap">
-                                            <img src="https://media.discordapp.net/attachments/1097233414287012001/1104059091137085470/ultra_taiko_pet.gif" class="img-fluid carousel-image" alt="">
+                                            <img onclick="window.open('news.php', '_self')" src="images/slide/ivan-torres-MQUqbmszGGM-unsplash.jpg" class="img-fluid carousel-image" alt="">
                                         </div>
                                         
                                         <div class="carousel-caption">
                                             <div class="d-flex align-items-center">
-                                                <h4 class="hero-text">ごはん</h4>
+                                                <h4 class="hero-text">As nossas Notícias</h4>
 
-                                                <span class="price-tag ms-4"><small>$</small>く</span>
+                                            
                                             </div>
 
                                             <div class="d-flex flex-wrap align-items-center">
-                                                <h5 class="reviews-text mb-0 me-3">4.2/5</h5>
-
-                                                <div class="reviews-stars">
-                                                    <i class="bi-star-fill reviews-icon"></i>
-                                                    <i class="bi-star-fill reviews-icon"></i>
-                                                    <i class="bi-star-fill reviews-icon"></i>
-                                                    <i class="bi-star-fill reviews-icon"></i>
-                                                    <i class="bi-star reviews-icon"></i>
-                                                </div>
+                                              
                                             </div>
                                         </div>
                                     </div>

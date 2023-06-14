@@ -34,35 +34,10 @@ https://www.tooplate.com/view/2129-crispy-kitchen
     </head>
     
     <body>
-        
-        <nav class="navbar navbar-expand-lg bg-white shadow-lg">
-            <div class="container">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                
-                <a class="navbar-brand" href="index.php">
-                    Crispy Kitchen
-                </a>
-
-                <div class="d-lg-none">
-                    <button type="button" class="custom-btn btn btn-danger" data-bs-toggle="modal" data-bs-target="#BookingModal">Reservation</button>
-                </div>
-
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav mx-auto">
-                        <?php
-                        include './include/menu.inc.php';
-                        ?>
-                    </ul>
-                </div>
-
-                <div class="d-none d-lg-block">
-                    <button type="button" class="custom-btn btn btn-danger" data-bs-toggle="modal" data-bs-target="#BookingModal">Reservation</button>
-                </div>
-
-            </div>
-        </nav>
+    
+            <?php
+                include './include/menu.inc.php';
+            ?>
 
         <main>
 
@@ -71,9 +46,9 @@ https://www.tooplate.com/view/2129-crispy-kitchen
                     <div class="row">
 
                         <div class="col-lg-10 col-12 mx-auto">
-                            <h1 class="text-white">Kitchen's Story</h1>
+                            <h1 class="text-white">A nossa História</h1>
 
-                            <strong class="text-white">this is how our kitchen evolved in new digital era</strong>
+                            <strong class="text-white">Quem somos e como criamos a Sabores do Sol</strong>
                         </div>
 
                     </div>
@@ -85,21 +60,12 @@ https://www.tooplate.com/view/2129-crispy-kitchen
             <section class="about section-padding bg-white">
                 <div class="container">
                     <div class="row">
-
-                        <div class="col-lg-6 col-12 mb-2">
-                            <h4 class="mb-3">Crispy Kitchen is the latest Bootstrap 5 HTML template provided by Tooplate website.</h4>
-
-                            <a href="news.php" class="custom-btn btn btn-dark mt-3">Check out News</a>
-
-                            <a href="contact.php" class="custom-btn btn btn-danger mt-3 ms-3">Say Hi</a>
+                        <div class="col-12">
+                            <h2 class="mb-5">História</h2>
                         </div>
-
-                        <div class="col-lg-6 col-12">
-                        
-                        	<p>Since this website template is 100% free to use, you can edit and apply it for your commercial restaurant websites. There are 6 HTML pages included in this template. Please <strong>click "Reservation" button</strong> on the top right to see the pop-up reservation form.</p>
-                        
-                            <p>You are NOT allowed to redistribute the template ZIP file on any template donwnload website. Please <a href="https://www.tooplate.com/contact" target="_blank">contact us</a> for more information.</p>
-
+                        <div class="bio">
+                            <p>Somos um pequeno grupo com sede no porto, preocupado com o meio ambiente.</p>
+                        	<p>A Sabores do Sol é uma pastelaria especializada no uso de plantas e flores comestíveis para decoração de bolos e doces. É com a sua criação que pretendemos criar uma comunidade que nos ajude a criar um mundo mais agradável e natural.</p>
                         </div>
 
                     </div>
@@ -111,7 +77,7 @@ https://www.tooplate.com/view/2129-crispy-kitchen
                     <div class="row">
 
                         <div class="col-12">
-                            <h2 class="mb-5">Team Members</h2>
+                            <h2 class="mb-5">Membros de equipa</h2>
                         </div>
 
                         <div class="col-lg-4 col-12">
@@ -121,7 +87,7 @@ https://www.tooplate.com/view/2129-crispy-kitchen
                                 <div class="team-info">
                                     <h4 class="mt-3 mb-0">Maria</h4>
 
-                                    <p>CEO &amp; Founder</p>
+                                    <p>Criadora e fundadora</p>
                                 </div>
                             </div>
                         </div>
@@ -132,7 +98,7 @@ https://www.tooplate.com/view/2129-crispy-kitchen
 
                                 <h4 class="mt-3 mb-0">Sónia</h4>
 
-                                <p>Restaurant Manager</p>
+                                <p>Fornecedora e sócia</p>
                             </div>
                         </div>
 
@@ -142,7 +108,7 @@ https://www.tooplate.com/view/2129-crispy-kitchen
                                 
                                 <h4 class="mt-3 mb-0">Cláudia</h4>
 
-                                <p>Senior Chef</p>
+                                <p>Orientadora e sócia</p>
                             </div>
                         </div>
 
@@ -169,7 +135,7 @@ https://www.tooplate.com/view/2129-crispy-kitchen
 
                                     <button type="submit" class="form-control mb-3" id="subscribe">Inscreve-te</button>
 
-                                    <small>By signing up, you agree to our Privacy Notice and the data policy</small>
+                                    <small>Com a sua inscrição, concorda com nosso Aviso de Privacidade e a política de dados.</small>
                                     </div>
                                 </form>
                             </div>

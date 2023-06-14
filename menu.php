@@ -1,4 +1,5 @@
 <?php
+session_start();
 include 'include/config.inc.php';
 ?>
 
@@ -45,34 +46,9 @@ https://www.tooplate.com/view/2129-crispy-kitchen
     
     <body >
         
-        <nav class="navbar navbar-expand-lg bg-white shadow-lg">
-            <div class="container">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                
-                <a class="navbar-brand" href="index.php">
-                    Crispy Kitchen
-                </a>
-
-                <div class="d-lg-none">
-                    <button type="button" class="custom-btn btn btn-danger" data-bs-toggle="modal" data-bs-target="#BookingModal">Reservation</button>
-                </div>
-
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav mx-auto">
-                        <?php
-                        include 'include/menu.inc.php';
-                        ?>
-                    </ul>
-                </div>
-
-                <div class="d-none d-lg-block">
-                    <button type="button" class="custom-btn btn btn-danger" data-bs-toggle="modal" data-bs-target="#BookingModal">Reservation</button>
-                </div>
-
-            </div>
-        </nav>
+    <?php
+    include './include/menu.inc.php';
+    ?>
 
         <main>
 
@@ -99,87 +75,14 @@ https://www.tooplate.com/view/2129-crispy-kitchen
                         <div class="col-12">
                             <h2 class="mb-lg-5 mb-4">Os Nossos Produtos</h2>
                         </div>
-
-                        <div class="col-lg-4 col-md-6 col-12">
-                            <div class="menu-thumb">
-                                <img src="images/breakfast/brett-jordan-8xt8-HIFqc8-unsplash.jpg" class="img-fluid menu-image" alt="">
-
-                                <div class="menu-info d-flex flex-wrap align-items-center">
-                                    <h4 class="mb-0">Fresh Start</h4>
-
-                                    <span class="price-tag bg-white shadow-lg ms-4"><small>$</small>24.50</span>
-
-                                    <div class="d-flex flex-wrap align-items-center w-100 mt-2">
-                                        <h6 class="reviews-text mb-0 me-3">4.4/5</h6>
-
-                                        <div class="reviews-stars">
-                                            <i class="bi-star-fill reviews-icon"></i>
-                                            <i class="bi-star-fill reviews-icon"></i>
-                                            <i class="bi-star-fill reviews-icon"></i>
-                                            <i class="bi-star-fill reviews-icon"></i>
-                                            <i class="bi-star reviews-icon"></i>
-                                        </div>
-
-                                        <p class="reviews-text mb-0 ms-4">128 Reviews</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 col-12">
-                            <div class="menu-thumb">
-                                <img src="images/breakfast/lucas-swennen-1W_MyJSRLuQ-unsplash.jpg" class="img-fluid menu-image" alt="">
-
-                                <div class="menu-info d-flex flex-wrap align-items-center">
-                                    <h4 class="mb-0">Baked Crem</h4>
-
-                                    <span class="price-tag bg-white shadow-lg ms-4"><small>$</small>16.50</span>
-
-                                    <div class="d-flex flex-wrap align-items-center w-100 mt-2">
-                                        <h6 class="reviews-text mb-0 me-3">3/5</h6>
-
-                                        <div class="reviews-stars">
-                                            <i class="bi-star-fill reviews-icon"></i>
-                                            <i class="bi-star-fill reviews-icon"></i>
-                                            <i class="bi-star-fill reviews-icon"></i>
-                                            <i class="bi-star reviews-icon"></i>
-                                            <i class="bi-star reviews-icon"></i>
-                                        </div>
-
-                                        <p class="reviews-text mb-0 ms-4">64 Reviews</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 col-12">
-                            <div class="menu-thumb">
-                                <img src="images/breakfast/louis-hansel-dphM2U1xq0U-unsplash.jpg" class="img-fluid menu-image" alt="">
-
-                                <div class="menu-info d-flex flex-wrap align-items-center">
-                                    <h4 class="mb-0">Burger Set</h4>
-
-                                    <span class="price-tag bg-white shadow-lg ms-4"><small>$</small>24.50</span>
-
-
-                                    <div class="d-flex flex-wrap align-items-center w-100 mt-2">
-                                        <h6 class="reviews-text mb-0 me-3">3/5</h6>
-
-                                        <div class="reviews-stars">
-                                            <i class="bi-star-fill reviews-icon"></i>
-                                            <i class="bi-star-fill reviews-icon"></i>
-                                            <i class="bi-star-fill reviews-icon"></i>
-                                            <i class="bi-star reviews-icon"></i>
-                                            <i class="bi-star reviews-icon"></i>
-                                        </div>
-
-                                        <p class="reviews-text mb-0 ms-4">32 Reviews</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
                     </div>
+                        
+b
+
+
+rdytr
+
+
                 </div>
             </section>
 
