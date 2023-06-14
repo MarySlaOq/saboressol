@@ -78,19 +78,14 @@ https://www.tooplate.com/view/2129-crispy-kitchen
 
                                 <div class="c-reviews my-3 d-flex flex-wrap align-items-center">
                                     <div class="d-flex flex-wrap align-items-center">
-                                        <h4 class="text-white mb-0 me-3">4.4/5</h4>
-
-                                        <div class="reviews-stars">
-                                            <i class="bi-star-fill reviews-icon"></i>
-                                            <i class="bi-star-fill reviews-icon"></i>
-                                            <i class="bi-star-fill reviews-icon"></i>
-                                            <i class="bi-star-fill reviews-icon"></i>
-                                            <i class="bi-star reviews-icon"></i>
-                                        </div>
+                                        <h4 class="text-white mb-0 me-3">Uma pastelaria</h4>
+                                        
+                                        
+                                        
                                     </div>
-
-                                    <p class="text-white w-100">From <strong>1,206+</strong> Customer Reviews</p>
                                 </div>
+                                <h4 class="text-white mb-0 me-3">amiga da natureza</h4>
+                                <p class="text-white w-100">From <strong>1,206+</strong> Customer Reviews</p>
                             </div>
                         </div>
 

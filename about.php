@@ -119,7 +119,7 @@ https://www.tooplate.com/view/2129-crispy-kitchen
                                 <img src="images/team/matthew-hamilton-tNCH0sKSZbA-unsplash.jpg" class="img-fluid team-image" alt="">
                                 
                                 <div class="team-info">
-                                    <h4 class="mt-3 mb-0">Sophia</h4>
+                                    <h4 class="mt-3 mb-0">Maria</h4>
 
                                     <p>CEO &amp; Founder</p>
                                 </div>
@@ -130,7 +130,7 @@ https://www.tooplate.com/view/2129-crispy-kitchen
                             <div class="team-thumb">
                                 <img src="images/team/nicolas-horn-MTZTGvDsHFY-unsplash.jpg" class="img-fluid team-image" alt="">
 
-                                <h4 class="mt-3 mb-0">Benjamin W.</h4>
+                                <h4 class="mt-3 mb-0">Sónia</h4>
 
                                 <p>Restaurant Manager</p>
                             </div>
@@ -140,7 +140,7 @@ https://www.tooplate.com/view/2129-crispy-kitchen
                             <div class="team-thumb">
                                 <img src="images/team/rc-cf-FMh5o5m5N9E-unsplash.jpg" class="img-fluid team-image" alt="">
                                 
-                                <h4 class="mt-3 mb-0">Muchen Jack</h4>
+                                <h4 class="mt-3 mb-0">Cláudia</h4>
 
                                 <p>Senior Chef</p>
                             </div>
@@ -160,14 +160,14 @@ https://www.tooplate.com/view/2129-crispy-kitchen
 
                         <div class="col-lg-6 col-12 d-flex align-items-center mt-5 mt-lg-0 mx-auto">
                             <div class="subscribe-form-wrap">
-                                <h4 class="mb-0">Our Newsletter</h4>
+                                <h4 class="mb-0">As nossas notícias</h4>
 
-                                <p>The food news every day</p>
+                                <p>Novidades da Sabores do Sol todos os dias</p>
 
                                 <form class="custom-form subscribe-form mt-4" role="form">
                                     <input type="email" name="subscribe-email" id="subscribe-email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Your email address" required="">
 
-                                    <button type="submit" class="form-control mb-3" id="subscribe">Subscribe</button>
+                                    <button type="submit" class="form-control mb-3" id="subscribe">Inscreve-te</button>
 
                                     <small>By signing up, you agree to our Privacy Notice and the data policy</small>
                                     </div>

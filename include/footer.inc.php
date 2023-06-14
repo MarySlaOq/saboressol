@@ -8,7 +8,7 @@
         <div class="col-lg-4 col-md-7 col-xs-12 tooplate-mt30">
             <h6 class="text-white mb-lg-4 mb-3">Localização</h6>
             <p>A tua mãe</p>
-            <a href="https://goo.gl/maps/wZVGLA7q64uC1s886" class="custom-btn btn btn-dark mt-2">Direções</a>
+            <a href="https://www.google.co.th/maps/place/Gaia+College/@41.1257762,-8.6121629,835m/data=!3m2!1e3!4b1!4m6!3m5!1s0xd2464d119daed09:0x96d9bb511fe3c719!8m2!3d41.1257722!4d-8.6095826!16s%2Fg%2F1td7k05y?hl=en&entry=ttu" class="custom-btn btn btn-dark mt-2">Direções</a>
         </div>
 
         <div class="col-lg-4 col-md-5 col-xs-12 tooplate-mt30">
