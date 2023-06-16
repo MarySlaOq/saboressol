@@ -7,6 +7,7 @@ include 'include/config.inc.php';
 include './include/menu.inc.php';
 ?>
 
+<link rel="icon" type="image/png" href="/saboressol/images/logo/logo-v3-simples.png" />
         
 <p> AQUI Q GAMER </p>
 

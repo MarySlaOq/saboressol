@@ -40,6 +40,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 
+                <img style="width: 80px; margin-right: 30px;" src="/saboressol/images/logo/logo-v3.png" alt="" srcset="">
                 <a class="navbar-brand" href="index.php">
                     Sabores do Sol
                 </a>
@@ -47,6 +48,7 @@
                 <div class="d-lg-none">
                     <button type="button" class="custom-btn btn btn-danger" data-bs-toggle="modal" data-bs-target="#BookingModal">Reservas</button>
                 </div>
+
 
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav mx-auto">

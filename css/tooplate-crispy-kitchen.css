@@ -11,11 +11,12 @@ https://www.tooplate.com/view/2129-crispy-kitchen
   CUSTOM PROPERTIES ( VARIABLES )             
 -----------------------------------------*/
 :root {
-  --white-color:                  #FFFFFF;
+  --white-color:                  #FBDDDB;
   --primary-color:                #f44749;
   --secondary-color:              #f3af24;
-  --section-bg-color:             #F9F9F9;
-  --dark-color:                   #000000;
+  --section-bg-color:             #FBDDDB;
+  --dark-color:                   #AA2F1B;
+  --not-so-dark-color:                   #aa2e1b3b;
   --title-color:                  #565758;
   --news-title-color:             #292828;
   --p-color:                      #717275;
@@ -50,13 +51,13 @@ body {
 /*---------------------------------------
   TYPOGRAPHY               
 -----------------------------------------*/
-
+h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  color: var(--dark-color);
+  color: #AA2F1B;
   line-height: inherit;
 }
 
@@ -151,7 +152,7 @@ strong {
 -----------------------------------------*/
 .custom-btn {
   border: 0;
-  color: var(--white-color);
+  color: #AA2F1B;
   font-size: var(--menu-font-size);
   padding: 10px 35px;
 }
@@ -161,9 +162,10 @@ strong {
   NAVIGATION              
 -----------------------------------------*/
 .navbar {
-  background: var(--white-color);
+  color: #fbc5c1;
   padding-top: 20px;
   padding-bottom: 20px;
+  background-color: #eabdba !important;
 }
 
 .navbar-brand {
@@ -179,7 +181,7 @@ strong {
 }
 
 .navbar-expand-lg .nav-link {
-  color: var(--p-color);
+  color: #AA2F1B;
   font-weight: var(--font-weight-normal);
   font-size: var(--menu-font-size);
   padding-top: 15px;
@@ -305,7 +307,7 @@ strong {
 }
 
 .overlay {
-  background: linear-gradient(to top, var(--dark-color), transparent 100%);
+  /*background: linear-gradient(to top, var(--dark-color), transparent 100%);*/
   position: absolute;
   top: 0;
   right: 0;
@@ -361,7 +363,7 @@ strong {
 }
 
 .carousel-caption {
-  background: linear-gradient(to top, var(--dark-color), transparent 90%);
+  background: linear-gradient(to top, #d77c6f, transparent 60%);
   text-align: left;
   position: absolute;
   right: 0;
@@ -370,9 +372,11 @@ strong {
   padding: 60px 40px;
 }
 
-.hero-carousel .reviews-text,
-.hero-text {
-  color: var(--white-color);
+ .reviews-text,.hero-carousel {
+  color: var(--dark-color);
+}
+.hero-text{
+  color: var(--dark-color);
 }
 
 .price-tag {
@@ -531,7 +535,7 @@ strong {
 }
 
 .related-news .news-text-info {
-  background: var(--white-color);
+  background: var(--dark-color);
 }
 
 .news-text-info-large {
@@ -714,7 +718,7 @@ strong {
 
 .site-footer::before {
   content: "";
-  background: linear-gradient(to top, var(--dark-color), transparent 200%);
+  background: linear-gradient(to top, var(--not-so-dark-color), transparent 70%);
   position: absolute;
   top: 0;
   right: 0;
@@ -881,5 +885,9 @@ strong {
 
 .bio p {
 
-  font-size: large !important;
+  font-size: x-large;
+}
+
+.newPad {
+  padding: 30px 0 30px 0;
 }
