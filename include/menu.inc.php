@@ -57,7 +57,7 @@
                             navLink('menu.php', $translations["menu"][$_SESSION["lang"]]);
                             navLink('news.php', $translations["news"][$_SESSION["lang"]]);
                             navLink('contact.php', $translations["cont"][$_SESSION["lang"]]);
-                            navLink('iku.php', 'いく！');
+                            //navLink('iku.php', 'いく！');//
 
                         ?>
                     </ul>
